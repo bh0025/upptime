@@ -7,10 +7,12 @@ sites:
     url: $SECRET_SITE1
   - name: vmshare
     url: $SECRET_SITE2
+    expectedStatusCodes:
+      - 400
   - name: 自带优化
     url: $SECRET_SITE3
     expectedStatusCodes:
-      - 502
+      - 400
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
