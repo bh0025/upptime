@@ -9,10 +9,6 @@ sites:
     url: $SECRET_SITE2
     expectedStatusCodes:
       - 400
-  - name: youhua
-    url: $SECRET_SITE3
-    expectedStatusCodes:
-      - 400
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
