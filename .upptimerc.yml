@@ -9,7 +9,7 @@ sites:
     url: $SECRET_SITE2
     expectedStatusCodes:
       - 400
-  - name: 自带优化
+  - name: youhua
     url: $SECRET_SITE3
     expectedStatusCodes:
       - 400
